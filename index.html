@@ -87,7 +87,7 @@
             <div class="hero-3d-container" id="canvas-container"></div>
             <div class="container h-100 position-relative z-index-2">
                 <div class="row h-100 align-items-center">
-                    <div class="col-lg-6 hero-content">
+                    <div class="col-xl-6 hero-content">
                         <h1 class="split-text">
                             FIND YOUR<br>
                             FOREVER<br>
@@ -118,7 +118,7 @@
                             <button class="btn btn-primary search-btn cta-hover"><i data-lucide="search"></i></button>
                         </div>
                     </div>
-                    <div class="col-lg-6 hero-visual position-relative">
+                    <div class="col-xl-6 hero-visual position-relative">
                         <!-- We will add floating elements via JS and CSS -->
                         <div class="hero-image-wrapper image-hover">
                             <!-- Placeholder image, high-quality dog portrait -->
@@ -490,32 +490,42 @@
                         <div class="step-item">
                             <div class="step-marker">01</div>
                             <div class="step-icon"><i data-lucide="search"></i></div>
-                            <h4>DISCOVER</h4>
-                            <p>Browse our available pets and find your potential companion.</p>
+                            <div class="step-content">
+                                <h4>DISCOVER</h4>
+                                <p>Browse our available pets and find your potential companion.</p>
+                            </div>
                         </div>
                         <div class="step-item">
                             <div class="step-marker">02</div>
                             <div class="step-icon"><i data-lucide="users"></i></div>
-                            <h4>MEET</h4>
-                            <p>Schedule a meet-and-greet to see if it's a perfect match.</p>
+                            <div class="step-content">
+                                <h4>MEET</h4>
+                                <p>Schedule a meet-and-greet to see if it's a perfect match.</p>
+                            </div>
                         </div>
                         <div class="step-item">
                             <div class="step-marker">03</div>
                             <div class="step-icon"><i data-lucide="file-text"></i></div>
-                            <h4>APPLY</h4>
-                            <p>Fill out the adoption application to begin the formal process.</p>
+                            <div class="step-content">
+                                <h4>APPLY</h4>
+                                <p>Fill out the adoption application to begin the formal process.</p>
+                            </div>
                         </div>
                         <div class="step-item">
                             <div class="step-marker">04</div>
                             <div class="step-icon"><i data-lucide="home"></i></div>
-                            <h4>PREPARE</h4>
-                            <p>Get your home ready for your new family member.</p>
+                            <div class="step-content">
+                                <h4>PREPARE</h4>
+                                <p>Get your home ready for your new family member.</p>
+                            </div>
                         </div>
                         <div class="step-item">
                             <div class="step-marker">05</div>
                             <div class="step-icon"><i data-lucide="heart"></i></div>
-                            <h4>GO HOME</h4>
-                            <p>Welcome your new best friend to their forever home!</p>
+                            <div class="step-content">
+                                <h4>GO HOME</h4>
+                                <p>Welcome your new best friend to their forever home!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -525,19 +535,19 @@
         <!-- Section 06: Adoption Stories -->
         <section id="stories" class="stories-section py-5">
             <div class="container py-5">
-                <div class="section-header mb-5">
+                <div class="section-header text-center mb-5">
                     <h2 class="split-text">FROM WAITING<br>TO HOME.</h2>
                 </div>
                 
                 <div class="story-slider-container">
                     <div class="story-card image-hover">
-                        <div class="row g-0 align-items-center h-100">
-                            <div class="col-md-6 h-100">
-                                <div class="story-image">
+                        <div class="row g-0 h-100">
+                            <div class="col-md-6 d-flex">
+                                <div class="story-image w-100">
                                     <img src="https://images.unsplash.com/photo-1544568100-847a948585b9?q=80&w=1000&auto=format&fit=crop" alt="Dog on sofa" class="parallax-img">
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 d-flex flex-column justify-content-center">
                                 <div class="story-content">
                                     <h3>LUNA'S STORY</h3>
                                     <p class="story-quote">"From a shelter kennel to a family sofa."</p>
@@ -549,13 +559,13 @@
                     </div>
 
                     <div class="story-card mt-5 image-hover">
-                        <div class="row g-0 align-items-center h-100 flex-row-reverse">
-                            <div class="col-md-6 h-100">
-                                <div class="story-image">
+                        <div class="row g-0 h-100 flex-row-reverse">
+                            <div class="col-md-6 d-flex">
+                                <div class="story-image w-100">
                                     <img src="https://images.unsplash.com/photo-1513360371669-4adf3dd7dff8?q=80&w=1000&auto=format&fit=crop" alt="Cat near window" class="parallax-img">
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 d-flex flex-column justify-content-center">
                                 <div class="story-content">
                                     <h3>NALA'S STORY</h3>
                                     <p class="story-quote">"From being overlooked to being loved."</p>
@@ -573,29 +583,29 @@
         <section class="promise-section py-5">
             <div class="container py-5">
                 <div class="row g-4 bento-grid">
-                    <div class="col-md-8">
-                        <div class="bento-card large bento-1">
+                    <div class="col-md-6">
+                        <div class="bento-card bento-1">
                             <i data-lucide="stethoscope"></i>
                             <h3>HEALTH CHECKED</h3>
                             <p>Every pet receives comprehensive health screening, vaccinations, and necessary medical care before they are ready for adoption.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="bento-card bento-2">
                             <i data-lucide="brain"></i>
                             <h3>PERSONALITY ASSESSED</h3>
                             <p>We take time to understand each pet's unique temperament.</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-6">
                         <div class="bento-card bento-3">
                             <i data-lucide="life-buoy"></i>
                             <h3>ADOPTION SUPPORT</h3>
                             <p>Guidance and resources provided before and after your adoption.</p>
                         </div>
                     </div>
-                    <div class="col-md-8">
-                        <div class="bento-card large bento-4">
+                    <div class="col-md-6">
+                        <div class="bento-card bento-4">
                             <i data-lucide="check-circle"></i>
                             <h3>RESPONSIBLE MATCHING</h3>
                             <p>We focus on building the right relationship that lasts a lifetime, rather than just facilitating a quick adoption.</p>
@@ -754,9 +764,9 @@
                         <a href="#contact">Contact</a>
                     </div>
                 </div>
-                <div class="col-lg-4 text-lg-end">
+                <div class="col-lg-4">
                     <h5 class="mb-4">Follow Us</h5>
-                    <div class="footer-social d-flex justify-content-lg-end gap-3">
+                    <div class="footer-social d-flex gap-3">
                         <a href="#" aria-label="Instagram">
                             <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
                         </a>
@@ -774,10 +784,15 @@
             </div>
             
             <div class="row align-items-center">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
                     <small class="text-muted">&copy; 2026 Paws & Hearts. ALL RIGHTS RESERVED.</small>
                 </div>
-                <div class="col-md-6 text-center text-md-end">
+                <div class="col-md-4 text-center mb-3 mb-md-0">
+                    <a href="#hero" class="text-muted text-decoration-none" aria-label="Back to top">
+                        <i data-lucide="arrow-up" style="width: 20px; height: 20px; color: var(--clr-accent);"></i>
+                    </a>
+                </div>
+                <div class="col-md-4 text-center text-md-end">
                     <div class="footer-bottom-links">
                         <a href="#" class="text-muted me-3 text-decoration-none"><small>Privacy Policy</small></a>
                         <a href="#" class="text-muted text-decoration-none"><small>Terms of Service</small></a>
